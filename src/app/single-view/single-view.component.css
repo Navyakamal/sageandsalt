@@ -1,0 +1,37 @@
+.name{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.image{
+    height: 600px;
+    width: 100%;
+    
+}
+.c1{
+    background-color: rgba(157, 127, 81, 0.57);
+    border-radius: 15px;
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.c2{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: rgba(231, 238, 241, 0.581);
+    border-radius: 15px;
+}
+@media (max-width: 576px) {
+    .c1 {
+        margin-left: 0; /* Remove left margin for small screens */
+    }
+
+    /* Optionally, you can also adjust padding or margin on the container for better spacing */
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
